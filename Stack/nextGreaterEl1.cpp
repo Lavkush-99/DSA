@@ -1,6 +1,6 @@
 #include<iostream>
-#include<stack>
-#include<vector>
+#include<stack>      // Brute Force Approach.
+#include<vector>  // given two vector one is subset of other find next greater element of fisrt corresponding to second.
 using namespace std;
 int main(){
     vector<int>arr1={4,1,2};
