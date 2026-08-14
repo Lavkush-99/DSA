@@ -8,18 +8,13 @@ bool isPossible(vector<int>&stalls,int n,int c,int minAllowedDis){
         if((stalls[i]-lastStallPos)>minAllowedDis){
             cow++;
             lastStallPos=stalls[i];
-
         }
         if(cow==c){
             return true;
         }
     }
     return false;
-
-
 }
-
-
 
 int getDistance(vector<int>&arr,int n,int c){
     sort(arr.begin(),arr.end());
